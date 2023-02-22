@@ -1,7 +1,4 @@
-%% ONLY UPLOAD THIS FILE
-%% DO NOT CHANGE THE NAME OF THE FUNCTION
 function Gss=tf2sym(Gs)
-    %% IMPLEMENTATION GOES HERE
     syms s;
     Size = double(size(Gs));
 
@@ -24,6 +21,4 @@ function Gss=tf2sym(Gs)
             
         end
     end
-
-
 end
